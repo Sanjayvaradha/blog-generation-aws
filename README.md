@@ -1,4 +1,4 @@
-Blog generation AWS
+## Blog generation AWS
 
 A fully serverless AI-powered blog generation system using AWS Lambda, API Gateway (REST API), Amazon Bedrock, and a Streamlit UI.
 Users can enter any topic and automatically generate a structured 200-word blog using an LLM (Llama 3 / chosen Bedrock model).
