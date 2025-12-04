@@ -20,3 +20,17 @@ This project uses:
 ✔ Usage Plan
 ✔ Throttling (5 req/sec)
 ✔ Quota limit (100 req/day)
+
+## ☁️ Deployment Architecture
+This project was deployed on AWS Cloud using the following infrastructure:
+
+* **Compute:** AWS EC2 (t2.micro/Ubuntu) for hosting the Streamlit frontend.
+* **Backend:** AWS Lambda for serverless execution of the generation logic.
+* **AI Model:** AWS Bedrock (Llama 3) for LLM text generation.
+* **Storage:** AWS S3 for saving the generated blog posts.
+
+
+### Deployment Steps Taken
+1.  Provisioned EC2 instance (Ubuntu Image).
+2.  Configured Security Groups (Inbound rules for Port 8501 and SSH).
+3.  Connected via SSH and set up the Python environment.
